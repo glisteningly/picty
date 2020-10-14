@@ -10,14 +10,16 @@
     "paths": {
       "~/*": ["./src/*"],
       "~~/*": ["./*"],
+      "@/*": ["./src/*"]
     },
     "types": [
       "vuetify",
+      "webpack-env"
     ],
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true
   },
-  "include": ["src"],
+  "include": ["src"]
 }

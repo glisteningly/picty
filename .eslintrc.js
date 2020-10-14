@@ -2,5 +2,5 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ['@fiahfy/nuxt'],
+  // extends: ['@fiahfy/nuxt'],
 }
