@@ -71,6 +71,7 @@ const Worker = require('~/workers/fetch-files.worker').default
 const worker = promisify(new Worker())
 
 export default defineComponent({
+  name: 'Explore',
   setup(_props: unknown, context: SetupContext) {
     const state = reactive<{
       loading: boolean
